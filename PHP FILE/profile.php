@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include '../DATABASE/database.php';
 session_start();
 $user_id=$_SESSION['enrollment'];
 if(!isset($user_id))
@@ -29,7 +29,7 @@ $image_size = $image['size'];
 $image_error = $image['error'];
   if ($image_error === UPLOAD_ERR_OK) {
     // Specify the target directory for the image
-    $target_directory = "images/";
+    $target_directory = "../images/";
     $target_path = $target_directory . $image_name;
     
 
@@ -87,7 +87,7 @@ width:153px;
 }
 
  </style>
-    <link rel="stylesheet"  href="profile.css">
+    <link rel="stylesheet"  href="../CSS/profile.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
@@ -106,7 +106,7 @@ if(mysqli_num_rows($select)>0)
        <img class="image"   id="images" src="<?php echo $fetch['image']; ?>">
 
        <!------------------------------------------------------------------------>
-       <label for="input"><img class="camera" src="used_img/camera.png"></label>
+       <label for="input"><img class="camera" src="../used_img/camera.png"></label>
        <input type="file" name="image" action="image/jpg,image/jpeg,image/png" id="input">
        <p> <?php echo $fetch['username'] ;?></p>
        
