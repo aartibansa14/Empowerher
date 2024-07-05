@@ -38,7 +38,7 @@
     
 
     // Check if the email is already registered
-    include "database.php";
+    include "../DATABASE/database.php";
     //for email
     $check_email_query = "SELECT * FROM registration WHERE email = ?";
     $stmt = mysqli_stmt_init($conn);
@@ -79,7 +79,7 @@
 
         if ($image_error === UPLOAD_ERR_OK) {
             // Specify the target directory for the image
-            $target_directory = "images/";
+            $target_directory = "../images/";
             $target_path = $target_directory . $image_name;
 
             // Move the uploaded image to the target directory

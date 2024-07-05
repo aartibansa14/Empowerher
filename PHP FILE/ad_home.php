@@ -1,6 +1,6 @@
 <?php 
     
-    include 'database.php';
+    include '../DATABASE/database.php';
    
 
     $query = " select * from complain ";
@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ad_home.css">
+    <link rel="stylesheet" href="../CSS/ad_home.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>Document</title>
     <style>
@@ -114,14 +114,14 @@
 <body>
     <div class="section">
         <div class="part-1">
-          <img class="women" src="used_img/women.png">
+          <img class="women" src="../used_img/women.png">
     
           <p>Madhav Institute of Technology &amp; Science, Gwalior (M.P.), INDIA
             <br>
     
             माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत
           </p>
-          <img class="logo" src="used_img/mits logo.png">
+          <img class="logo" src="../used_img/mits logo.png">
     
         </div>
     
@@ -141,7 +141,7 @@
             </div>
             <div class="list">
             <?php
-            include 'database.php';
+            include '../DATABASE/database.php';
             $query = " select com_id,enrollment,name,email,address,message from feedback ";
             $result = mysqli_query($conn,$query);
             
@@ -184,7 +184,7 @@
            </div>
            <div class="list">
            <?php  
-               include 'database.php';
+               include '../DATABASE/database.php';
                $query = " select * from complain ";
                $result = mysqli_query($conn,$query); 
                         

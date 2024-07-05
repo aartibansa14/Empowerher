@@ -25,7 +25,7 @@
 
       </style>
     
-    <link rel="stylesheet" type="text/css" href="update_status.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/update_status.css">
     
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,14 +33,14 @@
 <body>
     <div class="section">
         <div class="part-1">
-          <img class="women" src="used_img/women.png">
+          <img class="women" src="../used_img/women.png">
           
           <p>Madhav Institute of Technology &amp; Science, Gwalior (M.P.), INDIA 
             <br>
             
               माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत 
           </p>
-          <img class="logo" src="used_img/mits logo.png">
+          <img class="logo" src="../used_img/mits logo.png">
          
         </div>
     </div>
@@ -59,7 +59,7 @@
   ini_set('display_errors', 1);
   ini_set('display_startup_errors', 1);
   error_reporting(E_ALL);
-  include 'database.php';
+  include '../DATABASE/database.php';
   session_start();
   
   $query = "SELECT * FROM complain";
@@ -99,7 +99,7 @@
 <?php
 
 ?>
-<script src="update_feed.js"></script>
+<script src="../JS/update_feed.js"></script>
 </body>
 
 </html>

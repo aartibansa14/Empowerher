@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="homes.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/homes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -70,14 +70,14 @@
 
     <div class="section">
         <div class="part-1">
-          <img class="women" src="used_img/women.png">
+          <img class="women" src="../used_img/women.png">
           
           <p>Madhav Institute of Technology &amp; Science, Gwalior (M.P.), INDIA 
             <br>
             
               माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत 
           </p>
-          <img class="logo" src="used_img/mits logo.png">
+          <img class="logo" src="../used_img/mits logo.png">
          
         </div>
     </div>
@@ -89,19 +89,19 @@
     <div class="part-2">
       
     <div class="img-1">
-      <img src="used_img/banner-5.png" width="100%" height="340px">
+      <img src="../used_img/banner-5.png" width="100%" height="340px">
     </div>
     <div class="img-1">
-     <img src="used_img/banner-2.png" width="100%" height="340px">
+     <img src="../used_img/banner-2.png" width="100%" height="340px">
     </div>
     <div class="img-1">
-      <img src="used_img/banner-1.png" width="100%" height="340px">
+      <img src="../used_img/banner-1.png" width="100%" height="340px">
     </div>
     <div class="img-1">
-      <img src="used_img/banner-4.png" width="100%" height="340px">
+      <img src="../used_img/banner-4.png" width="100%" height="340px">
     </div>
     <div class="img-1">
-      <img src="used_img/banner-3(1).png" width="100%" height="340px">
+      <img src="../used_img/banner-3(1).png" width="100%" height="340px">
     </div>
      
       <span class="prev" onclick="controller(-1)">&#10094</span>
@@ -113,29 +113,29 @@
       <h4>GIRLS <span>ISSUE</span></h4>
       <div class="top">
       <div class="molest">
-      <img src="used_img/molest.svg">
+      <img src="../used_img/molest.svg">
       <p>Molestation</p>
       </div>
       <div class="mental">
-        <img src="used_img/mental_stress.svg">
+        <img src="../used_img/mental_stress.svg">
         <p>Mental Stress</p>
       </div>
       <div class="acid">
-        <img src="used_img/acid_attack.svg">
+        <img src="../used_img/acid_attack.svg">
         <p>Acid Attack</p>
       </div>
     </div>
     <div class="bottom">
       <div class="bully">
-        <img src="used_img/bullying.svg">
+        <img src="../used_img/bullying.svg">
         <p>Bullying</p>
       </div>
       <div class="rape">
-        <img src="used_img/rape.svg">
+        <img src="../used_img/rape.svg">
         <p>Rape/Attempt To Rape</p>
       </div>
       <div class="harrase">
-        <img src="used_img/harassement.svg">
+        <img src="../used_img/harassement.svg">
         <p>harassement</p>
       </div>
     </div>
@@ -186,7 +186,7 @@
 
     <div class="rt" id="rt1">
       <h4>CONTACT US</h4>
-      <img src="used_img/contact.png" width="200px" height="200px">
+      <img src="../used_img/contact.png" width="200px" height="200px">
       <div class="social" id="scoi">
         
         <a class="face" href="#"><i class="fa fa-facebook"></i></a>
@@ -199,8 +199,8 @@
   </footer>
   
 
-    <script src="home.js"></script>
-  <script src="demo.js"></script>
+    <script src="..JS/home.js"></script>
+  <script src="..JS/demo.js"></script>
     
    
 </body>

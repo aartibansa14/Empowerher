@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include '../DATABASE/database.php';
 
 if (isset($_POST['com_id']) && isset($_POST['status'])) {
     $comId = $_POST['com_id'];

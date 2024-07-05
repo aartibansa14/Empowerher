@@ -5,7 +5,7 @@ $login=false;
            $email = $_POST["email"];
            $password = $_POST["password"];
            $enrollment=$_POST['enrollment'];
-            include "database.php";
+            include "../DATABASE/database.php";
             $sql = "SELECT * FROM registration WHERE email = '$email' AND password='$password' AND enrollment='$enrollment'";
             $result = mysqli_query($conn, $sql);
            $num=mysqli_num_rows($result);

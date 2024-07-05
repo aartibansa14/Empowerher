@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include '../DATABASE/database.php';
 session_start();
 $user_id=$_SESSION['enrollment'];
 if(!isset($user_id))
@@ -16,7 +16,7 @@ if(!isset($user_id))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complain_dashboard</title>
-    <link rel="stylesheet" type="text/css" href="complain.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/complain.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -70,14 +70,14 @@ if(!isset($user_id))
 
     <div class="section">
         <div class="part-1">
-          <img class="women" src="used_img/women.png">
+          <img class="women" src="../used_img/women.png">
           
           <p>Madhav Institute of Technology &amp; Science, Gwalior (M.P.), INDIA 
             <br>
             
               माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत 
           </p>
-          <img class="logo" src="used_img/mits logo.png">
+          <img class="logo" src="../used_img/mits logo.png">
          
         </div>
     </div>
