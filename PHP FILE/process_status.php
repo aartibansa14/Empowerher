@@ -19,7 +19,3 @@ if (isset($_POST['com_id']) && isset($_POST['status'])) {
 ?>
 
 
-
-
-
-

@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="landing_page.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="part-1">
-        <img class="women" src="used_img/women.png">
+        <img class="women" src="../used_img/women.png">
         
         <p>Madhav Institute of Technology &amp; Science, Gwalior (M.P.), INDIA 
           <br>
           
             माधव प्रौद्योगिकी एवं विज्ञान संस्थान, ग्वालियर (म.प्र.), भारत 
         </p>
-        <img class="logo" src="used_img/mits logo.png">
+        <img class="logo" src="../used_img/mits logo.png">
        
     </div>
   
@@ -29,7 +29,7 @@
       <!------------------------------------------------------------------------------------------->
       <div class="section">
         <p>Online <span>GIRLS</span>Complain Portal</p>
-          <img src="used_img/land_page_image.png">
+          <img src="../used_img/land_page_image.png">
       </div>
       <!-------------------------------------------------------------------------------------------->
       <div class="losign">

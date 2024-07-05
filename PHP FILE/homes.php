@@ -199,7 +199,7 @@
   </footer>
   
 
-    <script src="index.js"></script>
+    <script src="home.js"></script>
   <script src="demo.js"></script>
     
    
