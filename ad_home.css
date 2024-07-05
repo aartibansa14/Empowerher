@@ -8,54 +8,16 @@
 body{
 	margin: 0;
 	padding: 0;
-	
 	font-family: 'Jost', sans-serif;
 	background: linear-gradient(to left, #eaeaea, white, #d0d0de);
-  
 }
-/*.part-1
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-   border-bottom: 2px solid white;
-   border-radius: 2%;
-   box-shadow: rgba(26, 23, 23, 0.166) 0px 7px 29px 0px;
-   background-color: aliceblue;
-}
-.part-1 .logo
-{
-   
-   
-    margin-left: 20px;
-    width: 118px;
-    height:107px;
-    
-}
-.part-1 .women
-{
-   
-   
-    margin-right: 30px;
-    width: 118px;
-    height:107px;
-    
-}
-.part-1 p
-{
-    color:blue;
-    font-family: 'roboto';
-    font-weight: 700;
-    text-align: center;
-    font-size: 25px;
-}*/
+
 .bodyfun{
     display:flex;
     gap: 2%;
+  }
 
-}
+
 .feedback{
     border-right: 2px solid black;
     width: 30%;
